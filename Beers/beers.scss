@@ -1,0 +1,521 @@
+*{
+    color: white;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 14px;
+}
+p{
+    font-size: 12px;
+}
+
+main{
+    .beerbox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+    // z-index: -1;
+        .beercont{
+            max-width: 60%;
+            height: 90vh;
+            position: absolute;
+            background-color: black;
+            top: 130px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                .box1{
+                    max-width: 85%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    // background-color: aqua;
+                    padding: 30px 50px;
+                    // justify-content: center;
+                        h2{
+                            color: white;
+                        }
+                }
+                .box{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    // background-color: aqua;
+                        .line{
+                            width: 80%;
+                            border: 1px dashed grey;
+                        }
+                    .cont{
+                        width: 100%;
+                        height: 240px;
+                        display: flex;
+                        justify-content: space-around;
+                        padding: 5px 50px;
+                        // background-color: aquamarine;
+                            .imgbox1{
+                                width: 190px;
+                                height: 225px;
+                                background-image: url(https://static.wixstatic.com/media/41d000_95939747279ef079eb129bfd085b6879.jpg/v1/fill/w_360,h_450,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_95939747279ef079eb129bfd085b6879.jpg);
+                                background-position: center center;
+                                background-size: cover;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .imgbox2{
+                                width: 190px;
+                                height: 225px;
+                                background-image: url(https://static.wixstatic.com/media/41d000_ce33fd037bc13e6c638a2f70a7b7a0b3.jpg/v1/fill/w_297,h_460,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_ce33fd037bc13e6c638a2f70a7b7a0b3.jpg);
+                                background-position: center center;
+                                background-size: cover;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .rightbox{
+                                width: 60%;
+                                height: 225px;
+                                // background-color: aliceblue;
+                                    .line1{
+                                        width: 200px;
+                                        border: 1px dashed grey;
+                                    }
+                                    .beername{
+                                            h3{
+                                                font-size: 20px;
+                                                color: white;
+                                            }
+                                    }
+                                    .line2{
+                                        width: 250px;
+                                        border: 1px dashed grey;
+                                    }
+                                    .line3{
+                                        width: 180px;
+                                        border: 1px dashed grey;
+                                    }
+                            }
+                    }
+                }
+        }
+    }
+}
+.btncont{
+    button{
+        width: 15%;
+        height: 7%;
+        font-size: 25px;
+        background-color: #DDC01E;
+        border: none;
+        position: fixed;
+        bottom: 1.5%;
+        right: 1.5%;
+            span{
+                color: black !important;
+
+            }
+    }
+}
+@media screen and (max-width: 1300px){
+    main{
+    .beerbox{
+    width: 100%;
+    height: 210vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    // z-index: -1;
+        .beercont{
+            max-width: 65%;
+            height: 100vh;
+            position: absolute;
+            background-color: black;
+            top: 130px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                .box1{
+                    max-width: 85%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    // background-color: aqua;
+                    padding: 30px 50px;
+                    // justify-content: center;
+                        h2{
+                            color: white;
+                        }
+                }
+                .box{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 50px;
+                    // background-color: aqua;
+                        .line{
+                            width: 80%;
+                            border: 1px dashed grey;
+                        }
+                    .cont{
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        // flex-direction: column;
+                        // justify-content: space-around;
+                        padding: 25px 50px;
+                        // background-color: aquamarine;
+                            .imgbox1{
+                                width: 190px;
+                                height: 225px;
+                                background-image: url(https://static.wixstatic.com/media/41d000_95939747279ef079eb129bfd085b6879.jpg/v1/fill/w_360,h_450,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_95939747279ef079eb129bfd085b6879.jpg);
+                                background-position: center center;
+                                background-size: cover;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .imgbox2{
+                                width: 190px;
+                                height: 225px;
+                                background-image: url(https://static.wixstatic.com/media/41d000_ce33fd037bc13e6c638a2f70a7b7a0b3.jpg/v1/fill/w_297,h_460,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_ce33fd037bc13e6c638a2f70a7b7a0b3.jpg);
+                                background-position: center center;
+                                background-size: cover;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .rightbox{
+                                width: 60%;
+                                height: 225px;
+                                // background-color: aliceblue;
+                                    .line1{
+                                        width: 200px;
+                                        border: 1px dashed grey;
+                                    }
+                                    .beername{
+                                            h3{
+                                                font-size: 20px;
+                                                color: white;
+                                            }
+                                    }
+                                    .line2{
+                                        width: 250px;
+                                        border: 1px dashed grey;
+                                    }
+                                    .line3{
+                                        width: 180px;
+                                        border: 1px dashed grey;
+                                    }
+                            }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 823px){
+    main{
+    .beerbox{
+    width: 100%;
+    height: 340vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    // z-index: -1;
+        .beercont{
+            max-width: 65%;
+            height: 100vh;
+            position: absolute;
+            background-color: black;
+            top: 130px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                .box1{
+                    max-width: 85%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    // background-color: aqua;
+                    padding: 30px 50px;
+                    // justify-content: center;
+                        h2{
+                            color: white;
+                        }
+                }
+                .box{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 50px;
+                    // background-color: aqua;
+                        .line{
+                            width: 80%;
+                            border: 1px dashed grey;
+                        }
+                    .cont{
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        // justify-content: space-around;
+                        align-items: center;
+                        padding: 25px 50px;
+                        // background-color: aquamarine;
+                            .imgbox1{
+                                width: 190px;
+                                height: 225px;
+                                background-image: url(https://static.wixstatic.com/media/41d000_95939747279ef079eb129bfd085b6879.jpg/v1/fill/w_360,h_450,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_95939747279ef079eb129bfd085b6879.jpg);
+                                background-position: center center;
+                                background-size: cover;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .imgbox2{
+                                width: 190px;
+                                height: 225px;
+                                background-image: url(https://static.wixstatic.com/media/41d000_ce33fd037bc13e6c638a2f70a7b7a0b3.jpg/v1/fill/w_297,h_460,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_ce33fd037bc13e6c638a2f70a7b7a0b3.jpg);
+                                background-position: center center;
+                                background-size: cover;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .rightbox{
+                                width: 60%;
+                                height: 225px;
+                                // background-color: aliceblue;
+                                    .line1{
+                                        width: 200px;
+                                        border: 1px dashed grey;
+                                    }
+                                    .beername{
+                                            h3{
+                                                font-size: 20px;
+                                                color: white;
+                                            }
+                                    }
+                                    .line2{
+                                        width: 250px;
+                                        border: 1px dashed grey;
+                                    }
+                                    .line3{
+                                        width: 180px;
+                                        border: 1px dashed grey;
+                                    }
+                            }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 582px){
+    main{
+    .beerbox{
+    width: 100%;
+    height: 355vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    // z-index: -1;
+        .beercont{
+            max-width: 65%;
+            height: 100vh;
+            position: absolute;
+            background-color: black;
+            top: 130px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                .box1{
+                    max-width: 85%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    // background-color: aqua;
+                    padding: 30px 50px;
+                    // justify-content: center;
+                        h2{
+                            color: white;
+                        }
+                }
+                .box{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 50px;
+                    // background-color: aqua;
+                        .line{
+                            width: 80%;
+                            border: 1px dashed grey;
+                        }
+                    .cont{
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        // justify-content: space-around;
+                        align-items: center;
+                        padding: 25px 50px;
+                        // background-color: aquamarine;
+                            .imgbox1{
+                                width: 190px;
+                                height: 225px;
+                                background-image: url(https://static.wixstatic.com/media/41d000_95939747279ef079eb129bfd085b6879.jpg/v1/fill/w_360,h_450,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_95939747279ef079eb129bfd085b6879.jpg);
+                                background-position: center center;
+                                background-size: cover;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .imgbox2{
+                                width: 190px;
+                                height: 225px;
+                                background-image: url(https://static.wixstatic.com/media/41d000_ce33fd037bc13e6c638a2f70a7b7a0b3.jpg/v1/fill/w_297,h_460,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_ce33fd037bc13e6c638a2f70a7b7a0b3.jpg);
+                                background-position: center center;
+                                background-size: cover;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .rightbox{
+                                width: 60%;
+                                height: 225px;
+                                // background-color: aliceblue;
+                                    .line1{
+                                        width: 200px;
+                                        border: 1px dashed grey;
+                                    }
+                                    .beername{
+                                            h3{
+                                                font-size: 20px;
+                                                color: white;
+                                            }
+                                    }
+                                    .line2{
+                                        width: 250px;
+                                        border: 1px dashed grey;
+                                    }
+                                    .line3{
+                                        width: 180px;
+                                        border: 1px dashed grey;
+                                    }
+                            }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 479px){
+    main{
+    .beerbox{
+    width: 100%;
+    height: 450vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    // z-index: -1;
+        .beercont{
+            max-width: 65%;
+            height: 100vh;
+            position: absolute;
+            background-color: black;
+            top: 130px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                .box1{
+                    max-width: 85%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    // background-color: aqua;
+                    padding: 30px 50px;
+                    // justify-content: center;
+                        h2{
+                            color: white;
+                        }
+                }
+                .box{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 50px;
+                    // background-color: aqua;
+                        .line{
+                            width: 80%;
+                            border: 1px dashed grey;
+                        }
+                    .cont{
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        // justify-content: space-around;
+                        align-items: center;
+                        padding: 25px 50px;
+                        // background-color: aquamarine;
+                            .imgbox1{
+                                width: 190px;
+                                height: 225px;
+                                background-image: url(https://static.wixstatic.com/media/41d000_95939747279ef079eb129bfd085b6879.jpg/v1/fill/w_360,h_450,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_95939747279ef079eb129bfd085b6879.jpg);
+                                background-position: center center;
+                                background-size: cover;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .imgbox2{
+                                width: 190px;
+                                height: 225px;
+                                background-image: url(https://static.wixstatic.com/media/41d000_ce33fd037bc13e6c638a2f70a7b7a0b3.jpg/v1/fill/w_297,h_460,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_ce33fd037bc13e6c638a2f70a7b7a0b3.jpg);
+                                background-position: center center;
+                                background-size: cover;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .rightbox{
+                                width: 60%;
+                                height: 225px;
+                                // background-color: aliceblue;
+                                    .line1{
+                                        width: 200px;
+                                        border: 1px dashed grey;
+                                    }
+                                    .beername{
+                                            h3{
+                                                font-size: 20px;
+                                                color: white;
+                                            }
+                                    }
+                                    .line2{
+                                        width: 250px;
+                                        border: 1px dashed grey;
+                                    }
+                                    .line3{
+                                        width: 180px;
+                                        border: 1px dashed grey;
+                                    }
+                            }
+                    }
+                }
+            }
+        }
+    }
+}
