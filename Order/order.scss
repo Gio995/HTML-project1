@@ -118,7 +118,7 @@ i{
 
                         }
                         .cntbeers{
-                            width: 100%;
+                            width: 90%;
                             gap: 5px;
                             display: grid;
                             grid-template-areas: 
@@ -179,6 +179,9 @@ i{
         }
 
 }
+.backimg{
+    margin-top: 100px !important;
+}
 @media screen and (max-width: 1186px) {
     .container{
         padding-top: 3%;
@@ -198,7 +201,7 @@ i{
         'beer2'
         'beer3'
         'beer4'
-        ;
+        !important;
     }
     .beercont{
         width: 100%;
@@ -207,5 +210,22 @@ i{
         display: flex;
         flex-direction: column;
         padding-top: 50px;
+    }
+    .order{
+        height: 135vh;
+    }
+}
+@media screen and (max-width: 621px){
+    .order{
+        width: 100%;
+        height: 180vh;
+
+    }
+    .container{
+        width: 100%;
+
+    }
+    .beer{
+        max-width: 65%;
     }
 }
