@@ -1,0 +1,162 @@
+header {
+  position: relative;
+}
+
+main {
+  background-color: black;
+  width: 100%;
+  height: 70vh;
+  top: 180px;
+  display: flex;
+  justify-content: center;
+}
+main .container {
+  max-width: 65%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 130px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .container .head {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+main .container .head h2 {
+  color: white;
+}
+main .container .firstbox {
+  width: 100%;
+  height: 10%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+main .container .firstbox .box1 h3 {
+  color: #DDC01E;
+}
+main .container .firstbox .box2 p {
+  color: white;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+}
+main .container .firstbox .line {
+  width: 97%;
+  border: 0.5px solid grey;
+}
+main .container .contforbeers {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+}
+main .container .contforbeers .cont1 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+}
+main .container .contforbeers .cont1 .left .Beername h2 {
+  color: white;
+  font-size: 20px;
+}
+main .container .contforbeers .cont1 .left .Beername p {
+  color: white;
+  font-size: 14px;
+}
+main .container .contforbeers .cont1 .mid h3 {
+  color: white;
+  font-size: 16px;
+}
+main .container .contforbeers .cont1 .right {
+  padding-left: 30px;
+  width: 135px;
+  height: 135px;
+  align-self: center;
+  background-image: url(https://static.wixstatic.com/media/e961b53fa5de280614b0e684b6ee2abb.jpg/v1/fill/w_270,h_270,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e961b53fa5de280614b0e684b6ee2abb.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+main .container .contforbeers .cont1 .right2 {
+  padding-left: 30px;
+  width: 135px;
+  height: 135px;
+  align-self: center;
+  background-image: url(https://static.wixstatic.com/media/35d613d3af85cac992aee24ce4c5f365.jpg/v1/fill/w_270,h_270,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/35d613d3af85cac992aee24ce4c5f365.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+main .container .contforbeers .cont1 .right3 {
+  padding-left: 30px;
+  width: 135px;
+  height: 135px;
+  align-self: center;
+  background-image: url(https://static.wixstatic.com/media/f7f1a1bdb3b27f85ad27a5a4edf470f8.jpg/v1/fill/w_270,h_270,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f7f1a1bdb3b27f85ad27a5a4edf470f8.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+main .container .contforbeers .cont1 .right4 {
+  padding-left: 30px;
+  width: 135px;
+  height: 135px;
+  align-self: center;
+  background-image: url(https://static.wixstatic.com/media/a53a6e9a81969aae26b124204775c55d.jpg/v1/fill/w_270,h_270,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/a53a6e9a81969aae26b124204775c55d.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+main .container .contforbeers .line1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 40px;
+  padding-left: 50px;
+}
+main .container .contforbeers .line1 .line2 {
+  width: 92%;
+  height: 1;
+  border: 0.5px solid grey;
+}
+
+@media screen and (max-width: 658px) {
+  .cont1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+  }
+  .right {
+    width: 135px;
+    height: auto;
+    background-image: url(https://static.wixstatic.com/media/e961b53fa5de280614b0e684b6ee2abb.jpg/v1/fill/w_270,h_270,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e961b53fa5de280614b0e684b6ee2abb.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+  .right2 {
+    width: 135px;
+    height: auto;
+    background-image: url(https://static.wixstatic.com/media/35d613d3af85cac992aee24ce4c5f365.jpg/v1/fill/w_270,h_270,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/35d613d3af85cac992aee24ce4c5f365.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+  .right3 {
+    width: 135px;
+    height: auto;
+    background-image: url(https://static.wixstatic.com/media/f7f1a1bdb3b27f85ad27a5a4edf470f8.jpg/v1/fill/w_270,h_270,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f7f1a1bdb3b27f85ad27a5a4edf470f8.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+  .right4 {
+    width: 135px;
+    height: auto;
+    background-image: url(https://static.wixstatic.com/media/a53a6e9a81969aae26b124204775c55d.jpg/v1/fill/w_270,h_270,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/a53a6e9a81969aae26b124204775c55d.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+}/*# sourceMappingURL=menu.css.map */
