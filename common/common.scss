@@ -184,6 +184,35 @@ footer{
     
 }
 
+.brewer1{
+    position: relative;
+     &:hover{
+        .events{
+            width: 120px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            z-index: 4;
+            top: 40px;
+            right: 0px;
+            background-color: black;
+            cursor: pointer;
+                span{
+                    color: white;
+                    &:hover{
+                        color: #DDC01E;
+                    }
+                }
+        }
+    
+    }
+}
+.events{
+    display: none;
+}
+
 @media screen and (max-width: 900px) {
     
     header{

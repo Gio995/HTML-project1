@@ -172,6 +172,33 @@ footer .underline .iconscont i {
   color: #DDC01E;
 }
 
+.brewer1 {
+  position: relative;
+}
+.brewer1:hover .events {
+  width: 120px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 4;
+  top: 40px;
+  right: 0px;
+  background-color: black;
+  cursor: pointer;
+}
+.brewer1:hover .events span {
+  color: white;
+}
+.brewer1:hover .events span:hover {
+  color: #DDC01E;
+}
+
+.events {
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
   header {
     display: flex;

@@ -1,0 +1,508 @@
+*{
+    h4{
+        color: white !important;
+    }
+    p{
+        color: white;
+    }
+}
+
+.bigcontainer{
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+        .cont1{
+            width: 65%;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 130px;
+            background-color: black;
+            .top{
+                margin: 30px 0px;
+            }
+
+            .boxcont{
+                width: 100%;
+                height: 60vh;
+                padding: 0px 20px;
+                display: grid;
+                // grid-template-rows: 1fr 1fr 1fr;
+                grid-template-areas:
+                'box1 box2  box3 box4'
+                'box5 box6 box7 box8'
+                'box9 box10 box11 box12'
+                ;
+                .box{
+                    // width: 228px;
+                    // height: 171px;
+                    border: 3px solid black;
+                    &:hover{
+                        background-color: rgba(128, 128, 128, 0.113);
+                        transition: 0.6s;
+                    }
+
+                }
+                .box1{
+                    grid-area: box1;
+                    background-image: url(https://static.wixstatic.com/media/be1127501d734d9d3576dcb0543608a7.jpg/v1/fill/w_640,h_520,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/be1127501d734d9d3576dcb0543608a7.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                    position: relative;
+                        &:hover{
+                            .overlay1{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                    h4{
+                                        font-size: 20px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        display: flex;
+                                        justify-self: center;
+                                        padding: 0% 14%;
+                                        
+                                    }
+                            }
+                        }
+                        .overlay1{
+                            display: none;
+                            background-color: rgba(128, 128, 128, 0.26);
+                        }
+                }
+                .box2{      
+                    grid-area: box2;
+                    background-image: url(https://static.wixstatic.com/media/99d59729b5d23adc0c521c74a3121254.jpg/v1/fill/w_280,h_210,q_90,enc_avif,quality_auto/99d59729b5d23adc0c521c74a3121254.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                    position: relative;
+                        &:hover{
+                            .overlay2{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                    h4{
+                                        font-size: 20px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        display: flex;
+                                        justify-self: center;
+                                        padding: 0% 14%;
+                                        
+                                    }
+                            }
+                        }
+                        .overlay2{
+                            display: none;
+                            background-color: rgba(128, 128, 128, 0.26);
+                        }
+                }
+                .box3{     
+                    grid-area: box3;
+                    background-image: url(https://static.wixstatic.com/media/e663d336781fec7e3a69d54b47c404cc.jpg/v1/fit/w_500,h_500,q_90/file.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                    position: relative;
+                        &:hover{
+                            .overlay3{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                    h4{
+                                        font-size: 20px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        display: flex;
+                                        justify-self: center;
+                                        padding: 0% 14%;
+                                        
+                                    }
+                            }
+                        }
+                        .overlay3{
+                            display: none;
+                            background-color: rgba(128, 128, 128, 0.26);
+                        }
+                }
+                .box4{   
+                    grid-area: box4;
+                    background-image: url(https://static.wixstatic.com/media/99a406c32a418b3435f835d983e149f1.jpg/v1/fill/w_580,h_265,al_c,lg_1,q_80/99a406c32a418b3435f835d983e149f1.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                    position: relative;
+                        &:hover{
+                            .overlay4{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                    h4{
+                                        font-size: 20px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        display: flex;
+                                        justify-self: center;
+                                        padding: 0% 14%;
+                                        
+                                    }
+                            }
+                        }
+                        .overlay4{
+                            display: none;
+                            background-color: rgba(128, 128, 128, 0.26);
+                        }
+                }
+                .box5{
+                    grid-area: box5;
+                    background-image: url(https://static.wixstatic.com/media/ab07d422f6304f0fa334ff5a72bd7b65.jpg/v1/fill/w_280,h_210,q_90,enc_avif,quality_auto/ab07d422f6304f0fa334ff5a72bd7b65.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                    position: relative;
+                        &:hover{
+                            .overlay5{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                    h4{
+                                        font-size: 20px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        display: flex;
+                                        justify-self: center;
+                                        padding: 0% 14%;
+                                        
+                                    }
+                            }
+                        }
+                        .overlay5{
+                            display: none;
+                            background-color: rgba(128, 128, 128, 0.26);
+                        }
+                }
+                .box6{
+                    grid-area: box6;
+                    background-image: url(https://static.wixstatic.com/media/f43a7f5164b343b08c8369b84d6a20db.jpg/v1/fill/w_280,h_210,q_90,enc_avif,quality_auto/f43a7f5164b343b08c8369b84d6a20db.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                    position: relative;
+                        &:hover{
+                            .overlay6{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                    h4{
+                                        font-size: 20px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        display: flex;
+                                        justify-self: center;
+                                        padding: 0% 14%;
+                                        
+                                    }
+                            }
+                        }
+                        .overlay6{
+                            display: none;
+                            background-color: rgba(128, 128, 128, 0.26);
+                        }
+                }
+                .box7{
+                    grid-area: box7;
+                    background-image: url(https://www.drinkstuff-sa.co.za/wp-content/uploads/Beer1-1.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                    position: relative;
+                        &:hover{
+                            .overlay7{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                    h4{
+                                        font-size: 20px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        display: flex;
+                                        justify-self: center;
+                                        padding: 0% 14%;
+                                        
+                                    }
+                            }
+                        }
+                        .overlay7{
+                            display: none;
+                            background-color: rgba(128, 128, 128, 0.26);
+                        }
+                }
+                .box8{
+                    grid-area: box8;
+                    background-image: url(https://static.wixstatic.com/media/e663d336781fec7e3a69d54b47c404cc.jpg/v1/fit/w_500,h_500,q_90/file.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                    position: relative;
+                        &:hover{
+                            .overlay8{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                    h4{
+                                        font-size: 20px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        display: flex;
+                                        justify-self: center;
+                                        padding: 0% 14%;
+                                        
+                                    }
+                            }
+                        }
+                        .overlay8{
+                            display: none;
+                            background-color: rgba(128, 128, 128, 0.26);
+                        }
+                }
+                .box9{
+                    grid-area: box9;
+                    background-image: url(https://static.wixstatic.com/media/99a87d8071214fa4ab13060de66a4c93.jpg/v1/fill/w_280,h_210,q_90,enc_avif,quality_auto/99a87d8071214fa4ab13060de66a4c93.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                    position: relative;
+                        &:hover{
+                            .overlay9{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                    h4{
+                                        font-size: 20px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        display: flex;
+                                        justify-self: center;
+                                        padding: 0% 14%;
+                                        
+                                    }
+                            }
+                        }
+                        .overlay9{
+                            display: none;
+                            background-color: rgba(128, 128, 128, 0.26);
+                        }
+                }
+                .box10{
+                    grid-area: box10;
+                    background-image: url(https://static.wixstatic.com/media/99d59729b5d23adc0c521c74a3121254.jpg/v1/fill/w_280,h_210,q_90,enc_avif,quality_auto/99d59729b5d23adc0c521c74a3121254.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                    position: relative;
+                        &:hover{
+                            .overlay10{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                    h4{
+                                        font-size: 20px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        display: flex;
+                                        justify-self: center;
+                                        padding: 0% 14%;
+                                        
+                                    }
+                            }
+                        }
+                        .overlay10{
+                            display: none;
+                            background-color: rgba(128, 128, 128, 0.26);
+                        }
+                }
+                .box11{
+                    grid-area: box11;
+                    background-image: url(https://static.wixstatic.com/media/be1127501d734d9d3576dcb0543608a7.jpg/v1/fill/w_640,h_520,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/be1127501d734d9d3576dcb0543608a7.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                    position: relative;
+                        &:hover{
+                            .overlay11{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                    h4{
+                                        font-size: 20px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        display: flex;
+                                        justify-self: center;
+                                        padding: 0% 14%;
+                                        
+                                    }
+                            }
+                        }
+                        .overlay11{
+                            display: none;
+                            background-color: rgba(128, 128, 128, 0.26);
+                        }
+                }
+                .box12{
+                    grid-area: box12;
+                    background-image: url(https://static.wixstatic.com/media/35f41220930974da6362c5a823339b3d.jpg/v1/fill/w_280,h_210,q_90,enc_avif,quality_auto/35f41220930974da6362c5a823339b3d.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                    position: relative;
+                        &:hover{
+                            .overlay12{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                    h4{
+                                        font-size: 20px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                        display: flex;
+                                        justify-self: center;
+                                        padding: 0% 14%;
+                                        
+                                    }
+                            }
+                        }
+                        .overlay12{
+                            display: none;
+                            background-color: rgba(128, 128, 128, 0.26);
+                        }
+                }
+        }   
+        }   
+} 
+
+@media screen and (max-width: 1139px){
+    .boxcont{
+    width: 100%;
+    // height: 100vh;
+    padding: 0px 20px;
+    display: grid;
+    // grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    'box1 box2  box3'
+    'box4 box5 box6'
+    'box7 box8 box9'
+    'box10 box11 box12'
+    !important;
+    }
+    .box{
+        width: 228px;
+        height: 171px;
+        border: 3px solid black;
+    }
+    .bigcontainer{
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    }
+}
+@media screen and (max-width: 1000px){
+    .bigcontainer{
+        height: 100vh;
+
+    }
+    .boxcont{
+        grid-template-areas: 
+        'box1 box2'
+        'box3 box4'
+        'box5 box6'
+        'box7 box8'
+        'box9 box10'
+        'box11 box12'
+        !important;
+        .box{
+            justify-self: center;
+        }
+    }
+}
+@media screen and (max-width: 737px){
+    .boxcont{
+        grid-template-areas: 
+        'box1'
+        'box2'
+        'box3'
+        'box4'
+        'box5'
+        'box6'
+        'box7'
+        'box8'
+        'box9'
+        'box10'
+        'box11'
+        'box12'
+        !important;
+            .box{
+                justify-self: center;
+            }
+    }
+        .bigcontainer{
+        height: 230vh;
+
+    }
+}
