@@ -64,6 +64,7 @@ header{
                     flex-direction: column;
                     gap: 5px;
                         input{
+                            border: 0.5px solid white;
                             color: white;
                             background-color: black;
                             border-color: white;
@@ -78,7 +79,7 @@ header{
             width: 50%;
                 textarea{
                     width: 100%;
-                    height: 106px;
+                    height: 97px;
                     resize: none;
                     color: white;
                     background-color: black;
