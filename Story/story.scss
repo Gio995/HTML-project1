@@ -17,18 +17,18 @@ main{
     // margin-top: 130px;
         .bigcont{
             width: 65%;
-            height: 100vh;
+            height: 140vh;
             background-color: black;
             gap: 40px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            // justify-content: center;
             align-items: center;
             position: absolute;
             top: 130px;
         
             .up{
-                margin-top: 400px;
+                margin-top: 40px;
                 width: 80%;
                 height: 70vh;
                 display: flex;
@@ -71,7 +71,7 @@ main{
             }
             .down{
                 width: 80%;
-                height: 700vh;
+                height: 70vh;
                 display: flex;
                 gap: 2%;
                     .left2{
@@ -108,14 +108,84 @@ main{
             }
         }
 }
-@media screen and (max-width: 1244px) {
+@media screen and (max-width: 995px) {
     .ourstory{
-        height: 110vh;
+        height: 130vh !important;
+    }
+    .bigcont{
+        height: 100vh !important;
+    }
+    .up{
+        height: 75vh !important;
+    }
+    .down{
+        height: 75vh !important;
+    }
+
+}
+@media screen and (max-width: 854px) {
+    .ourstory{
+        height: 140vh !important;
+    }
+    .bigcont{
+        height: 100vh !important;
+    }
+    .up{
+        height: 85vh !important;
+    }
+    .down{
+        height: 85vh !important;
+    }
+
+}
+@media screen and (max-width: 729px) {
+    .ourstory{
+        height: 200vh !important;
+    }
+    .bigcont{
+        height: 100vh !important;
+        gap: 10% !important;
+    }
+    .up{
+        height: 100vh !important;
+        // padding-bottom: 10% !important; 
+
+    .down{
+        height: 100vh !important;
     }
 }
-@media screen and (max-width: 1144px) {
-    .bigcont{
-        width: 65%;
-        height: 100vh;
+}
+@media screen and (max-width: 590px) {
+    .ourstory{
+        height: 250vh !important;
     }
+    .bigcont{
+        height: 100vh !important;
+        gap: 20% !important;
+    }
+    .up{
+        height: 100vh !important;
+        // padding-bottom: 10% !important; 
+
+    .down{
+        height: 100vh !important;
+    }
+}
+}
+@media screen and (max-width: 540px) {
+    .ourstory{
+        height: 400vh !important;
+    }
+    .bigcont{
+        height: 300vh !important;
+        // gap: 45% !important;
+    }
+    .up{
+        height: 150vh !important;
+        // padding-bottom: 10% !important; 
+
+    .down{
+        height: 150vh !important;
+    }
+}
 }
