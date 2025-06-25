@@ -203,3 +203,45 @@ main{
         background-size: cover;
     }
 }
+@media screen and (max-width: 524px){
+    main{
+        height: 120vh;
+    }
+    .contforbeers{
+        gap: 5% !important;
+    }
+    .line1{
+        padding: 50px 0;
+    }
+    .container{
+        gap: 50px !important;
+    }
+}
+@media screen and (max-width: 458px){
+    main{
+        height: 180vh;
+    }
+    .contforbeers{
+        gap: 15% !important;
+    }
+    .line1{
+        margin-top: 10px;
+    }
+    .container{
+        gap: 7% !important;
+    }
+}
+@media screen and (max-width: 368px){
+    main{
+        height: 220vh;
+    }
+    .contforbeers{
+        gap: 15% !important;
+    }
+    .line1{
+        margin-top: 10px;
+    }
+    .container{
+        gap: 7% !important;
+    }
+}

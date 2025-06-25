@@ -299,10 +299,10 @@ main .beerbox .beercont .box .cont .rightbox .line3 {
   }
   main .beerbox .beercont {
     max-width: 65%;
-    height: 100vh;
     position: absolute;
     background-color: black;
     top: 130px;
+    gap: 20% !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -380,7 +380,7 @@ main .beerbox .beercont .box .cont .rightbox .line3 {
 @media screen and (max-width: 479px) {
   main .beerbox {
     width: 100%;
-    height: 450vh;
+    height: 600vh;
     display: flex;
     justify-content: center;
     background-color: black;
@@ -391,6 +391,7 @@ main .beerbox .beercont .box .cont .rightbox .line3 {
     position: absolute;
     background-color: black;
     top: 130px;
+    gap: 30% !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -449,7 +450,7 @@ main .beerbox .beercont .box .cont .rightbox .line3 {
     height: 225px;
   }
   main .beerbox .beercont .box .cont .rightbox .line1 {
-    width: 200px;
+    width: 40%;
     border: 1px dashed grey;
   }
   main .beerbox .beercont .box .cont .rightbox .beername h3 {
@@ -457,11 +458,11 @@ main .beerbox .beercont .box .cont .rightbox .line3 {
     color: white;
   }
   main .beerbox .beercont .box .cont .rightbox .line2 {
-    width: 250px;
+    width: 40%;
     border: 1px dashed grey;
   }
   main .beerbox .beercont .box .cont .rightbox .line3 {
-    width: 180px;
+    width: 40%;
     border: 1px dashed grey;
   }
 }/*# sourceMappingURL=beers.css.map */

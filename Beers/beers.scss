@@ -333,10 +333,11 @@ main{
     // z-index: -1;
         .beercont{
             max-width: 65%;
-            height: 100vh;
+            // height: 100vh;
             position: absolute;
             background-color: black;
             top: 130px;
+            gap: 20% !important;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -426,7 +427,7 @@ main{
     main{
     .beerbox{
     width: 100%;
-    height: 450vh;
+    height: 600vh;
     display: flex;
     justify-content: center;
     background-color: black;
@@ -437,6 +438,7 @@ main{
             position: absolute;
             background-color: black;
             top: 130px;
+            gap: 30% !important;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -497,7 +499,7 @@ main{
                                 height: 225px;
                                 // background-color: aliceblue;
                                     .line1{
-                                        width: 200px;
+                                        width: 40%;
                                         border: 1px dashed grey;
                                     }
                                     .beername{
@@ -507,11 +509,11 @@ main{
                                             }
                                     }
                                     .line2{
-                                        width: 250px;
+                                        width: 40%;
                                         border: 1px dashed grey;
                                     }
                                     .line3{
-                                        width: 180px;
+                                        width: 40%;
                                         border: 1px dashed grey;
                                     }
                             }
