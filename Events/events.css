@@ -1,0 +1,141 @@
+head {
+  position: relative;
+}
+
+.line {
+  width: 60%;
+  border: 1px dashed grey;
+}
+
+.linemid {
+  width: 90%;
+  border: 1px dashed grey;
+}
+
+.linebot {
+  width: 60%;
+  border: 1px dashed grey;
+}
+
+.box1 {
+  grid-area: box1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box1 .bot {
+  width: 70%;
+}
+
+.box2 {
+  grid-area: box2;
+}
+
+.box3 {
+  grid-area: box3;
+}
+
+.box4 {
+  grid-area: box4;
+}
+
+.box5 {
+  grid-area: box5;
+}
+
+.box6 {
+  grid-area: box6;
+}
+
+.box7 {
+  grid-area: box7;
+}
+
+.box2, .box4, .box6 {
+  border-right: 1px solid #DDC01E;
+}
+
+main {
+  width: 100%;
+  height: 65vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+main .cont {
+  padding-top: 40px;
+  width: 65%;
+  height: 100vh;
+  position: absolute;
+  top: 130px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "box1 box1" "box2 box3" "box4 box5" "box6 box7";
+}
+main .cont .box {
+  padding: 15px;
+  border-bottom: 1px solid #DDC01E;
+}
+main .cont .box h2 {
+  color: white !important;
+}
+main .cont .box h3 {
+  color: white !important;
+}
+main .cont .box h4 {
+  color: white;
+}
+main .cont .box p {
+  color: white !important;
+}
+
+@media screen and (max-width: 1300px) {
+  main {
+    height: 110vh;
+  }
+}
+@media screen and (max-width: 931px) {
+  main {
+    height: 150vh;
+  }
+}
+@media screen and (max-width: 657px) {
+  main {
+    height: 220vh;
+  }
+  .cont {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "box1 box1" "box2 box2" "box3 box3" "box4 box4" "box5 box5" "box6 box6" "box7 box7" !important;
+  }
+  .cont .box {
+    border: 1px solid #DDC01E;
+  }
+}
+@media screen and (max-width: 566px) {
+  main {
+    height: 250vh;
+  }
+}
+@media screen and (max-width: 469px) {
+  main {
+    height: 280vh;
+  }
+}
+@media screen and (max-width: 387px) {
+  main {
+    height: 310vh;
+  }
+}
+@media screen and (max-width: 359px) {
+  main {
+    height: 340vh;
+  }
+}
+@media screen and (max-width: 328px) {
+  main {
+    height: 370vh;
+  }
+}/*# sourceMappingURL=events.css.map */
