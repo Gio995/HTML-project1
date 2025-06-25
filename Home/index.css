@@ -126,4 +126,7 @@ main .botcont .imgsbot .btncont1 button {
     width: 100%;
     text-align: center;
   }
+}
+.btncont1 button a {
+  color: #DDC01E !important;
 }/*# sourceMappingURL=index.css.map */

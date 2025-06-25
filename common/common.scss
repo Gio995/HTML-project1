@@ -8,6 +8,7 @@
     font-family: "Kelly Slab", sans-serif;
 }
 
+$maincolor: #DDC01E;
 
 header{
     width: 100%;
@@ -39,7 +40,7 @@ header{
                         .text1{
                             h2{
                                 font-size: 3rem;
-                                color: #DDC01E;
+                                color: $maincolor;
                                 font-weight: 100;
                             }
                         }
@@ -55,14 +56,14 @@ header{
                                 }
                                 .text2{
                                         h2{
-                                            color: #DDC01E;
+                                            color: $maincolor;
                                             font-size: 1.5rem;
                                             font-weight: 100;
                                         }
                                 }
                                 .shortline2{
                                     width: 30%;
-                                    border: 1px solid #DDC01E;
+                                    border: 1px solid $maincolor;
                                 }
                         }
                         .lasttext{
@@ -72,7 +73,7 @@ header{
                             gap: 15%;
                                 h4{
                                     font-size: 1rem;
-                                    color: #DDC01E;
+                                    color: $maincolor;
                                     font-weight: 100;
                                 }
 
@@ -130,7 +131,7 @@ header{
         width: 15%;
         height: 7%;
         font-size: 25px;
-        background-color: #DDC01E;
+        background-color: $maincolor;
         border: none;
         position: fixed;
         bottom: 1.5%;
@@ -180,7 +181,7 @@ footer{
 }
 
 .active{
-    color: #DDC01E;
+    color: $maincolor;
     
 }
 
@@ -202,7 +203,7 @@ footer{
                 span{
                     color: white;
                     &:hover{
-                        color: #DDC01E;
+                        color: $maincolor;
                     }
                 }
         }
@@ -251,7 +252,7 @@ footer{
                     &:hover{
                         cursor: pointer;
                         transition: 0.3s;
-                        color: #DDC01E;
+                        color: $maincolor;
                     }
                 }
             }
