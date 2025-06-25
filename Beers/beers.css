@@ -116,7 +116,7 @@ main .beerbox .beercont .box .cont .rightbox .line3 {
 @media screen and (max-width: 1300px) {
   main .beerbox {
     width: 100%;
-    height: 210vh;
+    height: 250vh;
     display: flex;
     justify-content: center;
     background-color: black;
@@ -127,6 +127,7 @@ main .beerbox .beercont .box .cont .rightbox .line3 {
     position: absolute;
     background-color: black;
     top: 130px;
+    gap: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,7 +203,7 @@ main .beerbox .beercont .box .cont .rightbox .line3 {
 @media screen and (max-width: 823px) {
   main .beerbox {
     width: 100%;
-    height: 340vh;
+    height: 400vh;
     display: flex;
     justify-content: center;
     background-color: black;
@@ -213,6 +214,7 @@ main .beerbox .beercont .box .cont .rightbox .line3 {
     position: absolute;
     background-color: black;
     top: 130px;
+    gap: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -290,7 +292,7 @@ main .beerbox .beercont .box .cont .rightbox .line3 {
 @media screen and (max-width: 582px) {
   main .beerbox {
     width: 100%;
-    height: 355vh;
+    height: 470vh;
     display: flex;
     justify-content: center;
     background-color: black;

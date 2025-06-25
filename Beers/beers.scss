@@ -126,7 +126,7 @@ main{
     main{
     .beerbox{
     width: 100%;
-    height: 210vh;
+    height: 250vh;
     display: flex;
     justify-content: center;
     background-color: black;
@@ -137,6 +137,7 @@ main{
             position: absolute;
             background-color: black;
             top: 130px;
+            gap: 10%;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -224,7 +225,7 @@ main{
     main{
     .beerbox{
     width: 100%;
-    height: 340vh;
+    height: 400vh;
     display: flex;
     justify-content: center;
     background-color: black;
@@ -235,6 +236,7 @@ main{
             position: absolute;
             background-color: black;
             top: 130px;
+            gap: 10%;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -324,7 +326,7 @@ main{
     main{
     .beerbox{
     width: 100%;
-    height: 355vh;
+    height: 470vh;
     display: flex;
     justify-content: center;
     background-color: black;
