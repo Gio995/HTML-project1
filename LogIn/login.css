@@ -8,6 +8,10 @@
     margin-top: 0;
   }
 }
+body {
+  overflow: hidden;
+}
+
 .registration {
   width: 100%;
   height: 90vh;
