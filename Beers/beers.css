@@ -99,16 +99,6 @@ main .beerbox .beercont .box .cont .rightbox .line3 {
   border: 1px dashed grey;
 }
 
-.btncont button {
-  width: 15%;
-  height: 7%;
-  font-size: 25px;
-  background-color: #DDC01E;
-  border: none;
-  position: fixed;
-  bottom: 1.5%;
-  right: 1.5%;
-}
 .btncont button span {
   color: black !important;
 }

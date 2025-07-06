@@ -154,6 +154,7 @@ footer .underline .textcont {
   justify-content: center;
 }
 footer .underline .textcont p {
+  padding-left: 15px;
   color: white;
   font-size: 12px;
   font-family: "Times New Roman", Times, serif;
