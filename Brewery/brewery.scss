@@ -542,8 +542,8 @@
 }
 @media screen and (max-width: 392px){
     .boxcont{
-        grid-template-columns: 0.4fr !important;
-        grid-template-rows: 0.4fr !important;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr !important;
         grid-template-areas: 
         'box1'
         'box2'
@@ -560,6 +560,8 @@
         !important;
             .box{
                 justify-self: center;
+                width: 90% !important;
+                height: 171px !important;
             }
     }
         .bigcontainer1{
